@@ -1,0 +1,45 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы конфигурации IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# Файлы конфигурации Visual Studio
+*.dbmdl
+*.opendb
+*.VC.db
+.vscode/
+.vs/
+*.sln.ide
+
+# Файлы build'ов
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+# ASP.NET
+appsettings*.json
+appsettings*.Development.json
+.env
+
+# Файлы NuGet
+*.nupkg
+# Папки с установленными пакетами
+packages/
+# Папки для кэшированных NuGet пакетов
+**/project.lock.json
+**/project.fragment.lock.json
+
+# Пакеты, восстановленные с помощью .NET CLI
+.nuget/
+
+# Кэш-файлы
+*.pidb
